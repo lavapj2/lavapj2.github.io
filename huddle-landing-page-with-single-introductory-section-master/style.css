@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background-image: url(images/bg-mobile.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+}
+
+#logo {
+  width: 200px;
+}
+
+main {
+  margin: 3.5% 4.5%;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#area-main-img {
+  width: 48.5vw;
+  margin-top: 4%;
+}
+
+#area-main-img > img {
+  width: 100%;
+}
+
+#area-main-content {
+  width: 37vw;
+  padding: 5.5% 0 0 4%;
+  color: white;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.7vw;
+  letter-spacing: 0.04em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding-right: 1vw;
+}
+
+button {
+  border-radius: 21px;
+  background: #ffffff;
+  padding: 0.4em 0.5em 0.6em 0.5em;
+  margin-top: 0.5em;
+  width: 150px;
+  height: 2.5em;
+  font-size: 1em;
+  color: hsl(257, 40%, 70%);
+  box-shadow: 2px 4px 15px darkslateblue;
+}
+
+button:hover {
+  background: darkslateblue;
+  color: hsl(257, 40%, 70%);
+  border: none;
+}
+
+.attribution { font-size: 11px; color: gray}
+.attribution a { color: hsl(217, 77%, 65%); text-decoration: none }
+
+#socmedia-icons {
+  font-size: 3em;
+  padding: 0 6.5% 4% 0;
+  opacity: 0.8;
+  text-align: right;
+}
+
+#socmedia-icons > i:hover {
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 965px) {
+  #area-main-img {
+    width: 100vw;
+  }
+
+  #area-main-content {
+    width: 100vw;
+  }
+}
+
+
+
+/*
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+
+
+
+
+
+
+*/
